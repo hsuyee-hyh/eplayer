@@ -1,0 +1,62 @@
+api key
+AIzaSyA8u4gMYhXmVzWc9ykYOynh3gcKmht8hQQ
+
+
+channel id
+UC1M6N5LUj3c1JhiZXiNDq3A
+
+upload id
+UU1M6N5LUj3c1JhiZXiNDq3A
+
+url
+https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=15&playlistId=UU1M6N5LUj3c1JhiZXiNDq3A&key=AIzaSyA8u4gMYhXmVzWc9ykYOynh3gcKmht8hQQ
+
+
+url for search
+https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelType=any&maxResults=25&q=linear%20regression&key=AIzaSyA8u4gMYhXmVzWc9ykYOynh3gcKmht8hQQ
+https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=ryanb&key=AIzaSyA8u4gMYhXmVzWc9ykYOynh3gcKmht8hQQ
+
+
+url for channel id
+https://youtube.googleapis.com/youtube/v3/playlists?part=snippet&channelId=UCUgLu1-71PdLmmZkDC5y4Kw&key=AIzaSyA8u4gMYhXmVzWc9ykYOynh3gcKmht8hQQ
+
+
+url for Audius Sound Cloud
+https://api.audius.co
+
+Audius player codes for api
+https://audiusproject.github.io/api-docs/?php#selecting-a-host
+
+Audius API key
+89f5ab825e3fb5a953b104d4d61a805dac4d36b8
+
+Audius API screte key
+86c540ee3c650593143a91006952c56a2916e6ba3ca26dac82aa30ed21ec1284
+
+
+======================= steps for api generation 
+register app
+generate api key
+learn original app's apis and Test
+
+
+
+
+<div key={index} className="card" style={{ width: "18rem" }}>
+  <a
+    href={"https://www.youtube.com/watch?v=" + item.id.videoId}
+    target="_blank"
+  >
+    <img
+      className="card-img-top"
+      src={item.snippet.thumbnails.default.url}
+    />
+  </a>
+  <div className="card-body">
+    <h5 className="card-title">{item.snippet.title}</h5>
+    <p className="card-text">{item.snippet.channelTitle}</p>
+    <a href="#" className="btn btn-primary">
+      Go somewhere
+    </a>
+  </div>
+</div>

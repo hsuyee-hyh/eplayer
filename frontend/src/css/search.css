@@ -1,0 +1,19 @@
+.cus-recent-search{
+    background-color: "#393E46";
+    max-height: 200px;
+    min-height: 100px;
+    padding: 8px 0;
+    overflow-y: auto; 
+    width: 100%;
+}
+
+ul.cus-recent-search-ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li.cus-recent-search-li{
+    padding: 5px 0;
+    background: transparent;
+}

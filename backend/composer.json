@@ -1,0 +1,14 @@
+{
+    "require": {
+        "google/apiclient": "^2.18",
+        "google/apiclient-services": "^0.390.0",
+        "firebase/php-jwt": "^6.11"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "App\\Config\\": "config/"
+        }
+    }
+}

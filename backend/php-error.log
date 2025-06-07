@@ -1,0 +1,40 @@
+[28-May-2025 17:15:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 22
+[28-May-2025 17:20:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 22
+[28-May-2025 17:32:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 22
+[28-May-2025 17:49:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 22
+[28-May-2025 17:59:01 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 22
+[28-May-2025 18:00:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 22
+[28-May-2025 18:01:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 22
+[29-May-2025 05:46:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 22
+[29-May-2025 06:10:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 22
+[29-May-2025 07:54:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 22
+[29-May-2025 09:25:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 22
+[29-May-2025 09:27:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 22
+[29-May-2025 09:43:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 22
+[29-May-2025 11:08:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 30
+[29-May-2025 11:08:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 30
+[29-May-2025 11:14:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 30
+[29-May-2025 11:15:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 30
+[29-May-2025 11:15:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 30
+[29-May-2025 11:15:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 30
+[29-May-2025 11:18:01 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 30
+[29-May-2025 11:18:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 30
+[29-May-2025 11:18:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 30
+[29-May-2025 11:20:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 30
+[29-May-2025 11:20:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 30
+[29-May-2025 11:20:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\esound\backend\router.php on line 30
+[30-May-2025 07:50:30 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\esound\backend\src\models\RecentSearch.php on line 52
+[30-May-2025 08:07:26 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\esound\backend\src\models\RecentSearch.php on line 52
+[30-May-2025 08:07:26 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\esound\backend\src\models\RecentSearch.php on line 86
+[30-May-2025 08:10:19 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\esound\backend\src\models\RecentSearch.php on line 52
+[30-May-2025 08:10:19 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\esound\backend\src\models\RecentSearch.php on line 86
+[30-May-2025 08:13:06 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\esound\backend\src\models\RecentSearch.php on line 52
+[30-May-2025 08:13:06 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\esound\backend\src\models\RecentSearch.php on line 86
+[30-May-2025 08:18:17 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\esound\backend\src\models\RecentSearch.php on line 52
+[30-May-2025 08:18:17 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\esound\backend\src\models\RecentSearch.php on line 86
+[30-May-2025 08:28:33 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\esound\backend\src\models\RecentSearch.php on line 52
+[30-May-2025 08:28:33 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\esound\backend\src\models\RecentSearch.php on line 87
+[30-May-2025 08:28:33 Europe/Berlin] SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'Array' for column 'user_id' at row 1
+[30-May-2025 08:30:44 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\esound\backend\src\models\RecentSearch.php on line 52
+[30-May-2025 08:30:44 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\esound\backend\src\models\RecentSearch.php on line 92
+[30-May-2025 09:37:56 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\esound\backend\src\models\RecentSearch.php on line 92

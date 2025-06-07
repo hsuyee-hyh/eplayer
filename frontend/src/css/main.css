@@ -1,0 +1,228 @@
+body{
+    background-color:#222831 ;
+    color: white   ;  
+    margin: 0;     
+    overflow-x: hidden;
+    
+}
+
+/* sidebar */
+.cus-sidebar-btn {
+  margin: 10px !important;
+  padding: 3px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-decoration: none !important;
+  color: #fff;
+}
+.cus-sidebar-btn:hover span,
+.cus-sidebar-btn:focus span{
+  color: green  !important;
+}
+.cus-sidebar-btn:hover svg,
+.cus-sidebar-btn:focus svg{
+  color: green !important;
+}
+.cus-sidebar-btn svg {
+  color: #fff !important;
+  font-size: 1.2rem;
+}
+
+
+.my-card{
+    width: 200px;
+    height: 300px;
+}
+.my-card > .card-body > .my-card-img{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: "10rem";
+    max-height: "200px";
+}
+
+
+/* table hover */
+/* table.cus-table-likedsongs tr { */
+  /* transition: background 0.2s; */
+/* } */
+table.cus-table-likedsongs{
+  width: 100%;
+}
+table.cus-table-likedsongs th,
+table.cus-table-likedsongs td {
+  background-color: #222831;
+  color: #fff;
+  padding: 10px;
+  border-bottom: 2px solid #393e46;
+}
+
+table.cus-table-likedsongs tr:hover th,
+table.cus-table-likedsongs tr:hover td{
+   background-color: #393e46 !important;
+    cursor: pointer;
+}
+/* table.cus-table-likedsongs tr:hover { */
+  /* background-color: red !important; */
+  /* cursor: pointer; */
+/* } */
+
+/* img */
+.cus-table-likedsongs .img-container {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #465978;
+  border-radius: 10px;
+}
+
+/* hover */
+.cus-table-likedsongs .play-overlay, .play-btn-overlay {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.6);
+  border-radius: 30%;
+  padding: 5px 8px 5px 8px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 2;
+}
+.cus-table-likedsongs .img-container:hover .play-overlay, .play-btn-overlay {
+  display: block;
+}
+table.cus-table-likedsongs .playlist-img {
+  padding: 6px 6px;
+  border-radius: 10px !important;
+  object-fit: cover !important;
+}
+
+
+/* Audio Player */
+
+.audio-player-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.card-bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  filter: blur(2px);
+}
+
+.audio-player-wrapper .card {
+  position: relative;
+  z-index: 2;
+  width: 22rem;
+  max-width: 90vw;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  border-radius: 16px;
+  margin-bottom: 32px;
+  /* background effect*/ 
+  background: rgba(34, 40, 49, 0.85); /* match dark overlay, semi-transparent */
+  color: #fff;
+  backdrop-filter: blur(0.5px);
+}
+
+/*** AudioPlayerTest ***/
+/* sticky audio player */
+.cus-saved-container{
+  margin: 0;
+  position: relative;
+}
+.cus-container{
+  background-color: #13151a ;
+  width: 100%;
+  height: 80px;
+  border: 3px solid red;
+
+  position: fixed; /* sticky */
+  bottom: 0%;
+  left: 0%;
+
+  animation: slideUp 0.5s ease-out forwards;
+}
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Player Actions */
+.cus-player-actions {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.cus-player-actions .btn,
+.d-flex.align-items-center .btn {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.cus-player-actions .btn svg,
+.d-flex.align-items-center .btn svg {
+  font-size: 1.4rem;
+}
+
+.cus-player-progress {
+  flex-grow: 1;
+  min-width: 100px;
+  max-width: 400px;
+}
+
+/* Player Time Labels */
+.cus-player-time {
+  font-size: 0.85rem;
+  min-width: 40px;
+  text-align: right;
+  margin-bottom: 0;
+}
+.cus-player-time.end {
+  text-align: left;
+  margin-left: 0.5rem;
+}
+.cus-player-time.start {
+  margin-right: 0.5rem;
+}
+
+/* Player Image */
+.cus-player-img {
+  width: 60px;
+  height: 60px;
+  border: 3px solid #323e51;
+  border-radius: 8px;
+  padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+
