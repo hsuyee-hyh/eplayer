@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useSearchParams, useLocation } from "react-router-dom";
 import logo from "../assets/logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -7,17 +7,30 @@ import {
   faList,
   faPlay,
 } from "@fortawesome/free-solid-svg-icons";
+import { useEffect } from "react";
 
 function Sidebar() {
+  // parameters for the sidebar links
+  // const [searchParams] = useSearchParams();
+  // const userid = searchParams.get("userid");
+  // const userid = props.userObj;
+  // console.log("userObj from props of Sidebar: ", props.userObj);
+
+  const location = useLocation();
+  console.log("location: ", location);
+  console.log("location.state: ", location.state.user);
+  const userid = location.state?.user.data.foundUser.id || null;
+
+  console.log("this is from sidebar's userid: ", userid);
+
   return (
     <aside
       style={{
-        minWidth: "330px",        
+        minWidth: "330px",
         // border: "3px solid red",
-        position:"fixed",
-        zIndex: 1040
+        position: "fixed",
+        zIndex: 1040,
       }}
-      
     >
       <div className="d-flex flex-row justify-content-center align-items-center me-5">
         <img
@@ -34,17 +47,24 @@ function Sidebar() {
       </div>
 
       <div className="d-flex flex-column">
-        
-          <Link to="/" className="cus-sidebar-btn">
-            <FontAwesomeIcon
-              icon={faHome}
-              className="mx-4 ms-5"
-            ></FontAwesomeIcon>
-            <span>Home</span>
-          </Link>
-        
+        <Link
+          to={`/home?userid=${userid}`}
+          state={{ user: location.state.user }} // passing user data to Home component
+          // that state is preserved when navigating via the Sidebar
+          className="cus-sidebar-btn"
+        >
+          <FontAwesomeIcon
+            icon={faHome}
+            className="mx-4 ms-5"
+          ></FontAwesomeIcon>
+          <span>Home</span>
+        </Link>
 
-        <Link to="playlists" className="cus-sidebar-btn">
+        <Link
+          to={`/playlists?userid=${userid}`}
+          state={{ user: location.state.user }} // passing user data to Playlists component
+          className="cus-sidebar-btn"
+        >
           <FontAwesomeIcon
             icon={faList}
             className="mx-4 ms-5"
@@ -52,7 +72,11 @@ function Sidebar() {
           <span>Playlists</span>
         </Link>
 
-        <Link to="savedplaylists" className="cus-sidebar-btn">
+        <Link
+          to={`/savedsongs?userid=${userid}`}
+          state={{ user: location.state.user }}
+          className="cus-sidebar-btn"
+        >
           <FontAwesomeIcon
             icon={faFolder}
             className="mx-4 ms-5"
@@ -60,7 +84,7 @@ function Sidebar() {
           <span>Saved Songs</span>
         </Link>
 
-        <Link to="player" className="cus-sidebar-btn">
+        <Link to={`/player?userid=${userid}`} className="cus-sidebar-btn">
           <FontAwesomeIcon
             icon={faPlay}
             className="mx-4 ms-5"

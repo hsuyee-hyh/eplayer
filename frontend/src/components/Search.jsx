@@ -51,7 +51,7 @@ function Search(props) {
       try {
         console.log("This is from useEffect from GET method.");
         const response = await fetch(
-          `http://localhost/esound/backend/router.php?userid=${userid}`,
+          `http://localhost/esound/backend/router.php?path=search&userid=${userid}`,
           {
             method: "GET",
             headers: {

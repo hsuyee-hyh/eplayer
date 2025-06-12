@@ -38,3 +38,7 @@
 [30-May-2025 08:30:44 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\esound\backend\src\models\RecentSearch.php on line 52
 [30-May-2025 08:30:44 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\esound\backend\src\models\RecentSearch.php on line 92
 [30-May-2025 09:37:56 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\esound\backend\src\models\RecentSearch.php on line 92
+[10-Jun-2025 19:24:57 Europe/Berlin] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\xampp\htdocs\esound\backend\router.php on line 29
+[10-Jun-2025 19:24:57 Europe/Berlin] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\xampp\htdocs\esound\backend\router.php on line 77
+[10-Jun-2025 19:33:34 Europe/Berlin] PHP Warning:  Undefined array key "path" in C:\xampp\htdocs\esound\backend\router.php on line 35
+[10-Jun-2025 19:33:34 Europe/Berlin] PHP Warning:  Undefined array key "path" in C:\xampp\htdocs\esound\backend\router.php on line 53

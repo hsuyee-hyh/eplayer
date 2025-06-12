@@ -1,0 +1,12 @@
+[12-Jun-2025 10:15:45 Europe/Berlin] PHP Warning:  Undefined array key "userid" in C:\xampp\htdocs\esound\backend\src\actions\new-playlist.php on line 22
+[12-Jun-2025 10:15:45 Europe/Berlin] PHP Warning:  Undefined array key "playlistName" in C:\xampp\htdocs\esound\backend\src\actions\new-playlist.php on line 23
+[12-Jun-2025 10:15:45 Europe/Berlin] PHP Warning:  Undefined array key "playlistDescription" in C:\xampp\htdocs\esound\backend\src\actions\new-playlist.php on line 24
+[12-Jun-2025 10:16:33 Europe/Berlin] PHP Warning:  Undefined array key "userid" in C:\xampp\htdocs\esound\backend\src\actions\new-playlist.php on line 24
+[12-Jun-2025 10:16:33 Europe/Berlin] PHP Warning:  Undefined array key "playlistName" in C:\xampp\htdocs\esound\backend\src\actions\new-playlist.php on line 25
+[12-Jun-2025 10:16:33 Europe/Berlin] PHP Warning:  Undefined array key "playlistDescription" in C:\xampp\htdocs\esound\backend\src\actions\new-playlist.php on line 26
+[12-Jun-2025 10:18:00 Europe/Berlin] PHP Warning:  Undefined array key "userid" in C:\xampp\htdocs\esound\backend\src\actions\new-playlist.php on line 24
+[12-Jun-2025 10:18:00 Europe/Berlin] PHP Warning:  Undefined array key "title" in C:\xampp\htdocs\esound\backend\src\actions\new-playlist.php on line 25
+[12-Jun-2025 10:18:00 Europe/Berlin] PHP Warning:  Undefined array key "description" in C:\xampp\htdocs\esound\backend\src\actions\new-playlist.php on line 26
+[12-Jun-2025 10:19:24 Europe/Berlin] PHP Warning:  Undefined array key "userid" in C:\xampp\htdocs\esound\backend\src\actions\new-playlist.php on line 24
+[12-Jun-2025 10:19:24 Europe/Berlin] PHP Warning:  Undefined array key "title" in C:\xampp\htdocs\esound\backend\src\actions\new-playlist.php on line 25
+[12-Jun-2025 10:19:24 Europe/Berlin] PHP Warning:  Undefined array key "description" in C:\xampp\htdocs\esound\backend\src\actions\new-playlist.php on line 26

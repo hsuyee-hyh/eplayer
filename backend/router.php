@@ -7,8 +7,9 @@ error_reporting(E_ALL);
 require_once __DIR__ . '/vendor/autoload.php';
 
 use App\Controllers\AuthController;
+use App\Controllers\PlaylistController;
 use App\controllers\RecentSearchController;
-
+use App\Controllers\SavedSongsController;
 
 header("Access-Control-Allow-Origin: http://localhost:5173");
 header("Access-Control-Allow-Methods: GET,POST,OPTIONS");
@@ -26,20 +27,59 @@ $data = json_decode(file_get_contents("php://input"), true);
 // }
 
 if ($_SERVER['REQUEST_METHOD'] == "GET") {
-    try {
-        $userid = isset($_GET['userid']);
-        if(!$userid){
-            throw new Exception("userid is required");
-        }
-        $controller = new RecentSearchController();
+    // get url
+    // $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
-        $result = $controller->recentSearchByUserId($userid);
-        if ($result) {
-            echo json_encode([
-                "status" => "success",
-                "message" => "Recent Search was found.",
-                "data" => $result
-            ]);
+    try {
+        // playlists
+        if ($_GET['path'] == 'playlists') {
+            $userid = $_GET['userid'];
+            if (!$userid) {
+                throw new Exception("userid is required");
+            }
+            $controller = new PlaylistController();
+            $result = $controller->playlists($userid);
+
+            if ($result) {
+                echo json_encode([
+                    "status" => "success",
+                    "message" => "Playlist was found.",
+                    "data" => $result
+                ]);
+            }
+        }
+
+        if ($_GET['path'] == 'search') {
+            $userid = isset($_GET['userid']);
+            if (!$userid) {
+                throw new Exception("userid is required");
+            }
+            $controller = new RecentSearchController();
+
+            $result = $controller->recentSearchByUserId($userid);
+            if ($result) {
+                echo json_encode([
+                    "status" => "success",
+                    "message" => "Recent Search was found.",
+                    "data" => $result
+                ]);
+            }
+        }
+
+        if ($_GET['path'] == 'savedsongs') {
+            $userid = $_GET['userid'];
+            if (!$userid) {
+                throw new Exception("userid is required");
+            }
+            $controller = new SavedSongsController();
+            $result = $controller->songs($userid);
+            if ($result) {
+                echo json_encode([
+                    "status" => "success",
+                    "message" => "Saved Songs are found.",
+                    "data" => $result
+                ]);
+            }
         }
     } catch (Exception $e) {
         echo json_encode([
@@ -77,7 +117,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             case "recentsearch":
                 $controller = new RecentSearchController();
                 $result = $controller->recentSearchBySearchTerm($data['userid'], $data['searchTerm']);
-                if($result){
+                if ($result) {
                     echo json_encode([
                         "status" => "success",
                         "message" => "Recent Search Found",

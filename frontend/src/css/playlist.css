@@ -1,0 +1,38 @@
+.cus-playlist-card{
+    width: 18rem;
+    height: 20rem;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    background-color: #1d2229;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cus-playlist-card:hover{
+    background-color: #393e46;
+    cursor: pointer;
+}
+
+.cus-playlist-button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 55%;
+}
+.cus-playlist-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+}
+
+.cus-playlist-img{
+    width: 100%;
+    height: 100%;
+    padding: 25px 25px 0 25px;
+    object-fit: cover;
+    border-radius: 2rem;
+}
